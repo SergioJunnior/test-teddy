@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "command": "npm run start:debug",
+            "name": "start:debug",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run test:watch",
+            "name": "test:watch",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run test:cov",
+            "name": "test coverage",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
